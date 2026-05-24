@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [multi-agent, kanban, profiles, orchestration, workflow, agent-teams, code-review-pipeline, ai-collaboration, agent-orchestration, planner-coder-tester, dev-workflow]
     related_skills: [kanban-orchestrator, kanban-worker, hermes-agent]
-    homepage: https://github.com/your-org/hermes-agent-teams
+    homepage: https://github.com/lxk55d/hermes-agent-teams
 ---
 
 # Hermes Agent Teams
@@ -24,7 +24,7 @@ metadata:
 
 ```bash
 # 从 URL 安装
-hermes skills install https://raw.githubusercontent.com/your-org/hermes-agent-teams/main/SKILL.md
+hermes skills install https://raw.githubusercontent.com/lxk55d/hermes-agent-teams/main/SKILL.md
 
 # 或从技能市场搜索安装
 hermes skills search agent-teams
@@ -37,7 +37,7 @@ hermes skills install hermes-agent-teams
 # 1. 下载 SKILL.md
 mkdir -p ~/.hermes/skills/autonomous-ai-agents/hermes-agent-teams/
 curl -o ~/.hermes/skills/autonomous-ai-agents/hermes-agent-teams/SKILL.md \
-  https://raw.githubusercontent.com/your-org/hermes-agent-teams/main/SKILL.md
+  https://raw.githubusercontent.com/lxk55d/hermes-agent-teams/main/SKILL.md
 
 # 2. 创建脚本目录
 mkdir -p ~/.hermes/skills/autonomous-ai-agents/hermes-agent-teams/scripts/
@@ -52,7 +52,7 @@ hermes skills list
 ### 方式三：从 GitHub Tap 安装
 
 ```bash
-hermes skills tap add your-org/hermes-agent-teams
+hermes skills tap add lxk55d/hermes-agent-teams
 hermes skills install hermes-agent-teams
 ```
 
